@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_toRightOf="@+id/imgCatId"
+            android:layout_margin="10dp"
+            android:id="@+id/txtVenueName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_margin="5dp"
+            android:id="@+id/imgCatId"
+            android:layout_width="30dp"
+            android:scaleType="fitXY"
+            android:layout_height="30dp" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/venueDistance"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:textSize="13sp"/>
+
+</LinearLayout>
